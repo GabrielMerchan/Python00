@@ -5,6 +5,7 @@ def recursion(start, end):
     recursion(start + 1, end)
 
 
-days = int(input("Days until harvest: "))
-i = 1
-recursion(i, days)
+def ft_count_harvest_recursive():
+    days = int(input("Days until harvest: "))
+    i = 1
+    recursion(i, days)
